@@ -20,8 +20,8 @@ h1 {
 }
 
 .refresh {
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 110px;
     margin-top: 15px;
     font-size: 20px;
 }
@@ -70,7 +70,7 @@ li:nth-child(even) {
 .name-input {
     height: 40px;
     width: 70%;
-    margin-top: 15px;
+    margin-top: 18px;
     border: 1px solid rgb(71, 70, 70);
 }
 
@@ -85,6 +85,6 @@ li:nth-child(even) {
     height: 35px;
     width: 30%;
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: 180px;
     border: 1px solid rgb(71, 70, 70);  
 }
