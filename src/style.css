@@ -1,47 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-    margin-top: 40px;
-    margin-left: 50px;
-    font-size: 60px;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 60px;
 }
 
 .lead-hole {
-    display: flex;
-    width: 100%;
-    margin-top: 70px;
-    font-size: 30px;
-    margin-left: 80px;
-    gap: 60px;
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  font-size: 30px;
+  margin-left: 130px;
+  gap: 60px;
 }
 
 .refresh {
-    height: 35px;
-    width: 110px;
-    margin-top: 15px;
-    font-size: 20px;
+  height: 35px;
+  width: 110px;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 .hole-list {
-    width: 40%;
+  width: 40%;
 }
 
 .class-list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .inser-list {
-    width: 30%;
+  width: 30%;
 }
 
 .lists {
-    border: 1px solid black;
-    margin-top: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
 }
 
 ul {
@@ -49,42 +49,42 @@ ul {
 }
 
 li {
-    padding: 15px;
+  padding: 15px;
 }
 
 li:nth-child(even) {
-    background-color: rgb(233, 225, 225);
-    width: 100%;
+  background-color: rgb(233, 225, 225);
+  width: 100%;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .action {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .name-input {
-    height: 40px;
-    width: 70%;
-    margin-top: 18px;
-    border: 1px solid rgb(71, 70, 70);
+  height: 40px;
+  width: 70%;
+  margin-top: 18px;
+  border: 1px solid rgb(71, 70, 70);
 }
 
 .score-input {
-    height: 40px;
-    width: 70%;
-    margin-top: 10px;
-    border: 1px solid rgb(71, 70, 70);
+  height: 40px;
+  width: 70%;
+  margin-top: 10px;
+  border: 1px solid rgb(71, 70, 70);
 }
 
 .submit {
-    height: 35px;
-    width: 30%;
-    margin-top: 20px;
-    margin-left: 180px;
-    border: 1px solid rgb(71, 70, 70);  
+  height: 35px;
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 180px;
+  border: 1px solid rgb(71, 70, 70);  
 }
