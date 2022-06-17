@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  box-shadow: 10px 0 10px rgb(71, 21, 21);
+  margin: 20px;
+}
+
 h1 {
   margin-top: 40px;
   margin-left: 50px;
@@ -15,7 +20,7 @@ h1 {
   width: 100%;
   margin-top: 70px;
   font-size: 30px;
-  margin-left: 130px;
+  padding-left: 130px;
   gap: 60px;
 }
 
@@ -24,6 +29,13 @@ h1 {
   width: 110px;
   margin-top: 15px;
   font-size: 20px;
+  border: 1px solid rgb(75, 73, 73);
+  box-shadow: 5px 5px rgb(99, 76, 76);
+}
+
+.refresh:hover {
+  color: rgb(109, 109, 109);
+  background-color: rgb(71, 13, 13);
 }
 
 .hole-list {
@@ -83,8 +95,15 @@ li:nth-child(even) {
 
 .submit {
   height: 35px;
+  font-size: 20px;
   width: 30%;
   margin-top: 20px;
-  margin-left: 180px;
+  margin-left: 150px;
   border: 1px solid rgb(87, 86, 86);
+  box-shadow: 5px 5px rgb(99, 76, 76);
+}
+
+.submit:hover {
+  color: rgb(150, 145, 145);
+  background-color: rgb(119, 23, 23);
 }
