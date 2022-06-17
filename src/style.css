@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  box-shadow: 10px 0px 10px rgb(71, 21, 21);
+  margin: 20px;
+}
+
 h1 {
   margin-top: 40px;
   margin-left: 50px;
@@ -26,6 +31,7 @@ h1 {
   font-size: 20px;
   border: 1px solid rgb(75, 73, 73);
   box-shadow: 1px solid rgb(39, 4, 4);
+  box-shadow: 5px 5px rgb(99, 76, 76);
 }
 
 .refresh:hover {
@@ -90,13 +96,15 @@ li:nth-child(even) {
 
 .submit {
   height: 35px;
+  font-size: 20px;
   width: 30%;
   margin-top: 20px;
   margin-left: 180px;
   border: 1px solid rgb(87, 86, 86);
+  box-shadow: 5px 5px rgb(99, 76, 76);
 }
 
-.submit:active {
-  color: rgb(58, 51, 51);
+.submit:hover {
+  color: rgb(150, 145, 145);
   background-color: rgb(119, 23, 23);
 }
